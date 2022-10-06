@@ -1,36 +1,4 @@
-// let obj=[
-//     {
-//     name:"jenifer",
-//     street:"kurumbalaperi",
 
-// },
-// {
-//     name:"ananth",
-//     street:"valore"
-// },
-// {
-//     name:"sruya",
-//     street:"kerala"
-// },
-// {
-//     name:"raja",
-//     street:"keelapavoor"
-// }
-
-// ];
-
-// obj.forEach(element => {
-//     for(let key in element){
-//         console.log(element[key])
-//          list=document.createElement("li")
-//          list.innerText=element[key]
-//          list1=document.getElementById("order")
-//          list1.appendChild(list)
-         
-         
-       
-//     }
-// })
 
 
 //  function colorchange(){
@@ -116,15 +84,96 @@
 
 
 
-let arrayname=["one","two","three","four","five","six","seven","eight","nine"];
+// let arrayname=["one","two","three","four","five","six","seven","eight","nine"];
 
 
 
-let s=arrayname.toString()
-  for(i=0;i<s;i++){
+// let s=arrayname.toString()
+//   for(i=0;i<s;i++){
    
-    console.log(i);
+//     console.log(i);
+//   }
+
+
+
+
+
+
+
+
+  // let number=parseInt(prompt("enter the number"));
+  //  let element=number.push('th');
+  // console.log(element);
+
+
+
+  // let number=parseInt(prompt("enter the number"));
+  // if(number==1 || number==101 || number==201){
+    
+  //   console.log(number+"st");
+  // }
+  // else if(number==2 || number==102){
+  
+  //   console.log(number+"nd")
+  // }
+  // else if(number==3 || number==103 ){
+  //   console.log(number+"rd")
+  // }
+  // else{
+  //   console.log(number+"th")
+  // }
+  let number=parseInt(prompt("enter the value"));
+  if(number%10==1  && number%100!==11){
+    let k=number+"st";
+    console.log(k)
   }
+  else if(number%10==2 && number%100!==12){
+    let s=number+"nd";
+    console.log(s)
+  }
+  else if(number%10==3 && number%100!==13){
+    let v=number+"rd";
+    console.log(v);
+  }
+  else{
+    console.log(number+"th")
+  }
+
+
+
+
+  // obj=[
+  //  "heading1","heading2"
+  // ]
+
+  // obj.forEach(element => {
+  
+  //      paragraph=document.createElement("p")
+  //      console.log("p")
+  //       paragraph.innerText=element
+  //       paragraph1=document.getElementById("order")
+  //       paragraph1.appendChild(paragraph)
+      
+  // });
+
+
+  // function create(){
+  //       obj.forEach(element=>{
+  //         paragraph=document.createElement("p")
+               
+  //                paragraph.innerText=element
+  //                paragraph1=document.getElementById("order")
+  //                paragraph1.appendChild(paragraph)
+  //       })
+  // }
+  // document.getElementById("btn-primary").addEventListener("click",create)
+    
+  
+  
+
+
+
+
 
 
   
