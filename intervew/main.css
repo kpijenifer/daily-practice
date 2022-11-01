@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+.login{
+    width:100%;
+    /* margin:auto; */
+}
+.pixes-1{
+    margin:auto;
+}
+.login-1{
+    width:100%;
+    display:flex;
+    margin:auto;
+    margin-top:200px;
+
+}
+.login-2{
+    width:50%;
+    margin-left:100px;
+    padding:20px;
+}
+.image{
+    width:50%;
+    height:300px;
+}
+.login-2 h1{
+    padding:10px;
+}
+.login-2 p{
+    padding:10px;
+}
+ .accr{
+    padding:30px;
+}
+.login-2 input{
+    padding:5px;
+    margin-top:15px;
+}
+.pass{
+    margin-left:210px;
+}
+.according-1{
+   display:flex;
+   justify-content: space-between;
+}
+.pass-1{
+    text-align:center;
+}
+.prisom-2 button{
+    background-color:violet;
+    border-radius: 5px;;
+}
